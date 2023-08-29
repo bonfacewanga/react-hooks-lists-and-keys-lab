@@ -9,6 +9,7 @@ function ProjectList({ projects }) {
         {projects.map(({ id, name, about, technologies }) => (
           <ProjectItem key={id} name={name} about={about} technologies={technologies} />
         ))}
+        
       </div>
     </div>
   );
